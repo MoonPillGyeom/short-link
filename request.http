@@ -1,0 +1,22 @@
+POST http://localhost:3000/api/short-links/
+Content-Type: application/json
+
+{
+  "title": "codeit-500err-test10",
+  "url": "https://codeit.kr"
+}
+
+###
+GET http://localhost:3000/api/short-links/
+
+###
+PATCH http://localhost:3000/api/short-links/
+Content-Type: application/json
+
+{
+  "title": "hi codeit-2"
+}
+
+
+###
+DELETE http://localhost:3000/api/short-links/65a48a1f9571b38f99573c05
